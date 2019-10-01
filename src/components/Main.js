@@ -3,6 +3,7 @@ import React from 'react';
 import Home from './Home';
 import Roster from './Roster';
 import Schedule from './Schedule';
+import Footer from './Footer';
 
 function Main(){
     return(
@@ -14,6 +15,7 @@ function Main(){
                 <Route path='/schedule' component={Schedule}/>
             </Switch>
             </main>
+            <Footer/>
         </div>
     );
 }
